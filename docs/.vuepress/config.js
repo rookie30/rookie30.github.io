@@ -38,12 +38,6 @@ module.exports = {
               logo: "https://trueloving.gitee.io/blog/avatar.png",
               link: 'https://trueloving.gitee.io/blog/'
             },
-            {
-              title: '午后南杂',
-              desc: 'Enjoy when you can, and endure when you must.',
-              email: 'recoluan@qq.com',
-              link: 'https://www.recoluan.com'
-            },
           ]
     },
 };
