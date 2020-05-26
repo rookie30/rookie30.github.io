@@ -1,4 +1,4 @@
 ---
 home: true
-description: '鹿晗的颜狗'
+description: '어떤 문제 든 반드시 답 이 있다'
 ---

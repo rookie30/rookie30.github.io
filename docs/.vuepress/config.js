@@ -24,10 +24,10 @@ module.exports = {
         ],
         author: 'rookie30',
         // 备案
-        record: 'ICP 备案文案',
-        recordLink: 'ICP 备案指向链接',
-        cyberSecurityRecord: '公安部备案文案',
-        cyberSecurityLink: '公安部备案指向链接',
+        record: '浙ICP备19047158号',
+        recordLink: 'http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action;jsessionid=u8ZL7Fy3HwmtiU7ANAz8A_ILKMZqDX_T2PPKWqoziLusQCqgtIPo!1690538009',
+        // cyberSecurityRecord: '公安部备案文案',
+        // cyberSecurityLink: '公安部备案指向链接',
         // 项目开始时间，只填写年份
         startYear: '2020',
         // 友链
