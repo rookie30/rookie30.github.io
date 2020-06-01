@@ -38,6 +38,12 @@ module.exports = {
               logo: "https://trueloving.gitee.io/blog/avatar.png",
               link: 'https://trueloving.gitee.io/blog/'
             },
+            {
+                title: 'kqzh',
+                desc: '控球之魂',
+                logo: 'https://www.liuxinc.ink/images/avatar.jpg',
+                link: 'https://www.liuxinc.ink/'
+            }
           ]
     },
 };
