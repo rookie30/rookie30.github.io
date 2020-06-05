@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>linux 文件和文件夹操作 | rookie30的小破站</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.2869f88f.css" as="style"><link rel="preload" href="/assets/js/app.6a714275.js" as="script"><link rel="preload" href="/assets/js/3.53ec8118.js" as="script"><link rel="preload" href="/assets/js/1.bf2fc389.js" as="script"><link rel="preload" href="/assets/js/13.5b3f6db5.js" as="script"><link rel="prefetch" href="/assets/js/10.73d17df3.js"><link rel="prefetch" href="/assets/js/11.2f5d33c5.js"><link rel="prefetch" href="/assets/js/12.79ce54c7.js"><link rel="prefetch" href="/assets/js/4.e5126703.js"><link rel="prefetch" href="/assets/js/5.e5397344.js"><link rel="prefetch" href="/assets/js/6.3e0cb111.js"><link rel="prefetch" href="/assets/js/7.60184b24.js"><link rel="prefetch" href="/assets/js/8.3e21fdf7.js"><link rel="prefetch" href="/assets/js/9.3049174a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2869f88f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-19557b78><div data-v-19557b78><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-19557b78 data-v-19557b78><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-19557b78 data-v-19557b78><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>rookie30的小破站</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>rookie30</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div class="hide" data-v-19557b78><header class="navbar" data-v-19557b78><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">rookie30的小破站</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/工具/" class="nav-link"><i class="iconfont undefined"></i>
+  工具
+</a></li><li class="dropdown-item"><!----> <a href="/categories/linux/" class="nav-link"><i class="iconfont undefined"></i>
+  linux
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-19557b78></div> <aside class="sidebar" data-v-19557b78><div class="personal-info-wrapper" data-v-b038cec6><img src="/avatar.jpg" alt="author-avatar" class="personal-img" data-v-b038cec6> <h3 class="name" data-v-b038cec6>
+    rookie30
+  </h3> <div class="num" data-v-b038cec6><div data-v-b038cec6><h3 data-v-b038cec6>3</h3> <h6 data-v-b038cec6>Article</h6></div> <div data-v-b038cec6><h3 data-v-b038cec6>2</h3> <h6 data-v-b038cec6>Tag</h6></div></div> <hr data-v-b038cec6></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/工具/" class="nav-link"><i class="iconfont undefined"></i>
+  工具
+</a></li><li class="dropdown-item"><!----> <a href="/categories/linux/" class="nav-link"><i class="iconfont undefined"></i>
+  linux
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div> <!----></nav>  <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-19557b78><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>linux 文件和文件夹操作</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>rookie30</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div data-v-19557b78><main class="page"><div class="page-title" style="display:none;"><h1>linux 文件和文件夹操作</h1> <hr> <div data-v-484a899e><i class="iconfont reco-account" data-v-484a899e><span data-v-484a899e>rookie30</span></i> <i class="iconfont reco-date" data-v-484a899e><span data-v-484a899e>2020-06-01</span></i> <!----> <i class="iconfont reco-tag tags" data-v-484a899e><span class="tag-item" data-v-484a899e>
+      linux
+    </span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><ol><li>创建/删除空目录</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">mkdir</span> / <span class="token function">rmdir</span>
+
+// 创建一个名为 abc 的文件夹
+$ <span class="token function">mkdir</span> abc
+
+// 删除名为 abc 的文件夹
+$ <span class="token function">rmdir</span> abc
+</code></pre></div><p><code>mkdir</code>只能创建一层目录，若要一次创建多级目录，则需加上 <strong>-p</strong> 参数。</p> <p><code>rmdir</code>只能删除空目录，若需删除有内容的目录，则需加上 <strong>-rf</strong> 参数。</p> <ol start="2"><li>创建/删除文件</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">touch</span> / <span class="token function">rm</span>
+
+
+// 创建readme.txt文件
+$ <span class="token function">touch</span> readme.txt
+
+// touch可以一次性创建多个文件
+$ <span class="token function">touch</span> test1.txt test2.txt
+
+// 删除readme.txt文件
+$ <span class="token function">rm</span> readme.txt
+</code></pre></div><div class="custom-block tip"><p>rm的几个重要参数</p> <ul><li>-i:交互式删除，每个删除项在执行时都会进行询问。</li> <li>-r:删除目录并递归删除目录中的文件和目录。</li> <li>-f:强制删除，忽略不存在的文件，没有任何提示。</li></ul></div> <ol start="3"><li>查看当前工作目录</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token builtin class-name">pwd</span>
+</code></pre></div><ol start="4"><li>查看目录内容</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">ls</span> <span class="token punctuation">[</span>参数<span class="token punctuation">]</span> <span class="token punctuation">[</span>目录/文件<span class="token punctuation">]</span>
+</code></pre></div><div class="custom-block tip"><p>ls的几个重要参数</p> <ul><li>-l:以长格式查看文件和目录。</li> <li>-a:显示隐藏的文件和目录。</li> <li>-R:遇到目录要进行递归展开。</li> <li>-d:只列出目录，不列出其他内容。</li> <li>-s:按大小排序。</li> <li>-t:按时间排序。</li></ul></div> <ol start="5"><li>查看文件内容</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> <span class="token punctuation">[</span>选项<span class="token punctuation">]</span> 要查看的文件
+
+// 分页显示，使用空格键跳转分页
+$ <span class="token function">cat</span> <span class="token punctuation">[</span>选项<span class="token punctuation">]</span> 要查看的文件 <span class="token operator">|</span> <span class="token function">more</span>
+</code></pre></div><blockquote><p>可以添加参数<code>-n</code>来显示行号。</p></blockquote> <ol start="6"><li>拷贝文件</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cp</span> <span class="token punctuation">[</span>选项<span class="token punctuation">]</span> source<span class="token punctuation">(</span>源文件<span class="token punctuation">)</span> dest<span class="token punctuation">(</span>目标地址<span class="token punctuation">)</span>
+
+// 拷贝文件 souhu.html 到 backup 文件夹下
+$ <span class="token function">cp</span> souhu.html backup/
+</code></pre></div><blockquote><p>当拷贝时发现目标目录下有相同文件，会提示是否覆盖，使用<code>\cp</code>进行强制覆盖，不会提示。</p></blockquote> <ol start="7"><li>移动文件与目录/重命名</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>// 重命名
+$ <span class="token function">mv</span> oldNameFile newNameFile
+
+// 移动文件或目录
+$ <span class="token function">mv</span> 源文件 目的目录
+
+// 例：将temp目录下的movefile文件移动到targetFolder目录下
+$ <span class="token function">mv</span> /temp/movefile /targetFolder
+
+// 例：将home目录下的aaa.txt文件重命名为pig.txt
+$ <span class="token function">mv</span> aaa.txt pig.txt
+</code></pre></div><ol start="8"><li>文件重命名</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">rename</span>
+</code></pre></div><ol start="9"><li>查找文件和查找内容</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">find</span> / <span class="token function">grep</span>
+</code></pre></div><ol start="10"><li>归档 / 解归档 -tar</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>// 解压一个.tar压缩包
+$ <span class="token function">tar</span> -xvf redis-4.0.10.tar
+</code></pre></div><blockquote><p>归档和解归档都使用<code>tar</code>命令，通常创建归档都需要<code>-cvf</code>三个参数，
+其中<code>c</code>表示创建（create），<code>v</code>表示显示创建归档详情（verbose），<code>f</code>表示指定归档的文件（file）；
+解归档需要加上<code>-xvf</code>参数，其中<code>x</code>表示抽取（extract），其他两个参数跟创建归档相同。</p></blockquote> <ol start="11"><li>显示文件或目录</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">basename</span> / <span class="token function">dirname</span>
+</code></pre></div><ol start="12"><li>more</li></ol> <p>more指令是一个基于VI编辑器的文本过滤器，它以全屏的方式按页显示文本内容。</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">more</span> 要查看的文件名
+</code></pre></div><table><thead><tr><th>操作</th> <th>功能说明</th></tr></thead> <tbody><tr><td>空格(space)</td> <td>下一页</td></tr> <tr><td>Enter</td> <td>向下翻一行</td></tr> <tr><td>q</td> <td>立即离开，不再显示文件内容</td></tr> <tr><td>Ctrl+F</td> <td>向下滚动一屏</td></tr> <tr><td>Ctrl+B</td> <td>返回上一屏</td></tr></tbody></table> <ol start="13"><li>less - 分屏查看文件内容，与more类似</li></ol> <p>less指令在显示文件内容时，并不是<strong>一次将整个文件加载后才显示</strong>，而是根据需要加载显示的内容，对于显示大型文件具有较高的效率。</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">less</span> 要查看的文件名
+</code></pre></div><ol start="14"><li>head - 显示文件的开头部分</li></ol> <p>默认情况下head指令显示文件的前十行内容。</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">head</span> 文件名
+
+// 显示文件的前五行内容
+$ <span class="token function">head</span> -n <span class="token number">5</span> 文件名
+</code></pre></div><ol start="15"><li>tail - 输出文件尾部的内容</li></ol> <p>默认情况下tail指令显示文件的后十行内容。</p> <div class="language-bash extra-class"><pre class="language-bash"><code>// 查看文件后十行内容
+$ <span class="token function">tail</span> 文件
+
+// 查看文件后五行内容
+$ <span class="token function">tail</span> -n <span class="token number">5</span> 文件
+
+//实时追踪该文档的所有更新，如果有变化，就会看到
+$ <span class="token function">tail</span> -f 文件
+</code></pre></div></div> <footer class="page-edit" style="display:none;"><!----> <!----></footer> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-44bd5a18 data-v-44bd5a18><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-44bd5a18><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-44bd5a18></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-44bd5a18></path></svg></div></div></div>
+    <script src="/assets/js/app.6a714275.js" defer></script><script src="/assets/js/3.53ec8118.js" defer></script><script src="/assets/js/1.bf2fc389.js" defer></script><script src="/assets/js/13.5b3f6db5.js" defer></script>
+  </body>
+</html>
