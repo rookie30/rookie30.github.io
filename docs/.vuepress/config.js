@@ -13,6 +13,9 @@ module.exports = {
                 text: "标签", // 默认文案 “标签”
             },
         },
+        markdown: {
+            lineNumbers: true
+        },
         type: "blog",
         authorAvatar: '/avatar.jpg',
         nav: [
