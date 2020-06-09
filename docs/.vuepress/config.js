@@ -16,7 +16,8 @@ module.exports = {
         markdown: {
             lineNumbers: true
         },
-        type: "blog",
+        // type: "blog",
+        type: 'HomePage',
         authorAvatar: '/avatar.jpg',
         nav: [
             { text: '首页', link: '/', icon: 'reco-home' },
